@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    <h3>Alapadatok</h3>
+    <div>
+        <form>
+            <p><label for="name">Teljes neved</label>
+                <input type="text" name="name">
+            </p>
+            <p>
+                <label for="nem">Nem </label>
+                <label><input type="radio" name="valasztogomb" value="igen" checked>Féri</label>
+                <label><input type="radio" name="valasztogomb" value="nem">Nő</label>
+            </p>
+            <p>
+                <label for="Email">Email</label>
+                <input type="email" name="Email">
+            </p>
+            <p>
+                <label for="telefon">Telefonszám</label>
+                <select name="telefonkor">
+                    <option value=" ">36</option>
+                    <option value=" " selected>-</option>
+                </select>
+                <input type="tel" name="telefon">
+            </p>
+            <p>
+                <label for="nyelv">Levelezés alapértelmezet nyelve</label>
+                <select name="nyelv">
+                    <option>Magyar</option>
+                    <option>Angol</option>
+                </select>
+            </p>
+            <p>
+                <label for="szido">Születési idő</label>
+                <select name="szido1">
+                    <option>év</option>
+                </select>
+                <select name="szido2">
+                    <option>hó</option>
+                </select>
+                <select name="szido2">
+                    <option>nap</option>
+                </select>
+            </p>
+            <p><input type="submit" value="Mentés"></p>
+        </form>
+    </div>
+</body>
+
+</html>
